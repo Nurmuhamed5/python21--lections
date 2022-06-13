@@ -12,6 +12,7 @@
 # name = name.lower().replace('a', '')
 # last_name = '*'.join(list(last_name))
 # print((name + last_name) * int(age)) 
+"""
 
 #1
 string = input('Введите строку: ').lower()
@@ -62,3 +63,20 @@ new_username = username[:center] + '&' + username[center:]
 password = new_username.swapcase()
 print(f'Вам сгенерирован пароль: {password}')
 
+
+a = int(input())
+b = int(input())
+if a%b == 0:
+    print("%d делится на %d" % (a,b))
+else:
+    print("%d не делится на %d" % (a,b))
+    print("Остаток: %d" % (a%b))
+print("Частное: %d" % (a//b))
+"""
+
+string1 = 'Makers'
+string2 = 'Bootcamp'
+
+
+
+т
